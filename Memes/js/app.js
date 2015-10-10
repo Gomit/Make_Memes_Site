@@ -1,35 +1,3 @@
-<!DOCTYPE html>
- 
-<html>
-<head>
-  <title>MemeMaker-Simple</title>
-    
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-  <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <style>
-    #image-container {
-      display: flex;
-    }
-  </style>
-</head>
- 
-<body>
- 
-  <div>
-    <input type="file" id="file" />  
-  </div>
-  <div id="image-container">
-    <canvas width="500" height="500"></canvas>
-    <div>
-      <span>Top Line:</span><br/>
-      <input id="topLineText" type="text"><br/>
-      <span>Bottom Line:</span><br/>
-      <input id="bottomLineText" type="text"><br/>
-      <button id="saveBtn">Save</button>
-    </div>
-  </div>
-  <script>
     function textChangeListener (evt) {
       var id = evt.target.id;
       var text = evt.target.value;
@@ -107,7 +75,3 @@
     input2.oninput = textChangeListener;
     document.getElementById('file').addEventListener('change', handleFileSelect, false);
     document.querySelector('button').addEventListener('click', saveFile, false);
-  </script>
- 
-</body>
-</html>
