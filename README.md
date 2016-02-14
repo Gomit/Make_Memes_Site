@@ -1,6 +1,3 @@
-# Make_Memes_Site
-Write your own memes on picture
-
 Project Name:
 ===============================
 ###Make Memes
@@ -10,7 +7,7 @@ Project Name:
 Description
 ===============================
 
-Write your own memes on picture
+Write your own memes.
 
 To view the project, check out the repository and inspect the code.
 
